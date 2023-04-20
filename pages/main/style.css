@@ -6,15 +6,17 @@
 .body {
     margin: 0 auto;
     width: 1280px;
-    /*height: 3446px;*/
+    height: 3446px;
 }
 .header-box {
+    position: relative;
+    top: 30px;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1200px;
     height: 60px;
-    background-color: #891212;
     margin: 0 auto;
 }
 
@@ -64,6 +66,9 @@
 /*Start not Only*/
 
 .notOnly {
+    position: relative;
+    bottom: 60px;
+    z-index: 1;
     display: flex;
     align-items: end;
     width: 1280px;
@@ -128,6 +133,8 @@
 /*Start About*/
 
 .about-box {
+    position: relative;
+    bottom: 60px;
     display: flex;
     align-items: center;
     width: 1280px;
@@ -178,6 +185,8 @@
 /*Start our Friends*/
 
 .ourFriends-box {
+    position: relative;
+    bottom: 60px;
     display: flex;
     align-items: center;
     width: 1280px;
@@ -186,6 +195,8 @@
 }
 
 .ourFriends__h3 {
+    display: flex;
+    text-align: center;
     width: 400px;
     height: 90px;
 }
@@ -269,7 +280,186 @@
 }
 /*End our Friends*/
 
+/*Start Help*/
 
+.help-box {
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 611px;
+    background-color: #FFFFFF;
+}
+
+.help-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 431px;
+    margin: 0 auto;
+}
+
+.help-text__h3 {
+    text-align: center;
+}
+
+.help-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 1026px;
+    height: 281px;
+}
+
+.help__p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 175px;
+    height: 113px;
+}
+
+/*End Help*/
+
+/*Start in Addition*/
+
+.addition {
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 462px;
+    background-color: #F6F6F6;
+}
+
+.addition-content {
+    display: flex;
+    justify-content: space-between;
+    width: 915px;
+    height: 282px;
+    margin: 0 auto;
+}
+
+.addition-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380px;
+    height: 282px;
+}
+.h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.card-number {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 349px;
+    height: 43px;
+    background: #F1CDB3;
+    border-radius: 9px;
+}
+
+.addition-number{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.addition-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+/*End in Addition*/
+
+/*Start footer*/
+
+.footer-box {
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    align-items: end;
+    width: 1280px;
+    height: 350px;
+    background: url(../../assets/images/footer-gradient-background.svg);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 310px;
+    margin: 0 auto;
+}
+
+.footer__h3 {
+    color: #FFFFFF;
+}
+
+.footer-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 278px;
+    height: 234px;
+}
+
+.h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin-left: 20px;
+}
+
+.footer-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 302px;
+    height: 234px;
+}
+
+.footer-info {
+    display: flex;
+}
+/*End footer*/
 
 
 
