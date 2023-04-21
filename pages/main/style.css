@@ -34,6 +34,10 @@
     line-height: 35px;
     vertical-align: center;
     letter-spacing: 6%;
+}
+
+.logo-link {
+    text-decoration: none;
     color: #F1CDB3;
 }
 
@@ -55,6 +59,11 @@
     line-height: 160%;
     vertical-align: top;
     color: #CDCDCD;
+}
+
+.nav-text:hover {
+    color: #FAFAFA;
+    transition: 0.3s;
 }
 
 .nav-start {
@@ -117,6 +126,17 @@
     border-radius: 100px;
 }
 
+.notOnly-button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+    transition: 0.3s;
+}
+
+.link-friends {
+    text-decoration: none;
+    color: #292929;
+}
+
 .notOnly-button__text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
@@ -127,6 +147,9 @@
     color: #292929;
     background: transparent;
     border: none;
+}
+.notOnly-button__text:hover {
+    cursor: pointer;
 }
 /*End not Only*/
 
@@ -237,7 +260,10 @@
     height: 435px;
     background-color: #FAFAFA;
     border-radius: 9px;
+}
 
+.friend-card:hover {
+    cursor: pointer;
 }
 
 .friend-name {
@@ -260,6 +286,13 @@
     border-radius: 100px;
 }
 
+.friend-button:hover {
+    cursor: pointer;
+    border-color: #FDDCC4;
+    background: #FDDCC4;
+    transition: 0.3s;
+}
+
 .arrow-right {
     display: flex;
     justify-content: center;
@@ -270,6 +303,13 @@
     border-radius: 100%;
 }
 
+.arrow:hover {
+    cursor: pointer;
+    border-color: #FDDCC4;
+    background-color: #FDDCC4;
+    transition: 0.3s;
+}
+
 .ourFriends-button {
     display: flex;
     justify-content: center;
@@ -277,6 +317,12 @@
     height: 52px;
     background: #F1CDB3;
     border-radius: 100px;
+}
+
+.ourFriends-button:hover {
+    cursor: pointer;
+    background: #FDDCC4;
+    transition: 0.3s;
 }
 /*End our Friends*/
 
@@ -390,6 +436,10 @@
     font-size: 20px;
     line-height: 115%;
     letter-spacing: 0.06em;
+}
+
+.card-link {
+    text-decoration: none;
     color: #545454;
 }
 
@@ -458,6 +508,10 @@
 
 .footer-info {
     display: flex;
+}
+
+.footer-links {
+    text-decoration: none;
 }
 /*End footer*/
 
