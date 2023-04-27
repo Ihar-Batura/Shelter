@@ -516,11 +516,302 @@
 }
 /*End footer*/
 
-
-
-
 @font-face {
     font-family: Georgia;
     src: url(../../assets/fonts/georgia.ttf);
     font-style: Regular; 
 }
+
+/* Start Adaptive layout 768px*/
+
+@media  screen and (max-width: 768px) {
+    .body {
+        width: 768px;
+        height: 5291px;
+    }
+    .header-box {
+        width: 708px;
+        margin: 0;
+    }
+
+    .notOnly {
+        width: 768px;
+        height: 1165px;
+    }
+
+    .notOnly-box {
+        flex-direction: column;
+        width: 569px;
+        height: 1015px;
+    }
+
+    .notOnly-img2 {
+        width: 569px;
+        height: 593px;
+    }
+
+    .about-box {
+        width: 768px;
+        height: 1048px;
+    }
+
+    .about-content {
+        width: 437px;
+        height: 868px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .ourFriends-box {
+        width: 768px;
+        height: 877px;
+    }
+
+    .ourFriends-content {
+        width: 708px;
+        height: 697px;
+    }
+
+    .card-woody {
+        display: none;
+    }
+
+    .slider {
+        width: 708px;
+        height: 435px;
+    }
+
+    .help-box {
+        width: 768px;
+        height: 779px;
+    }
+
+    .help-content {
+        width: 630px;
+        height: 599px;
+    }
+
+    .help-boxes {
+        width: 630px;
+        height: 449px;
+        justify-content: space-between;
+    }
+
+    .addition {
+        width: 768px;
+        height: 783px;
+    }
+
+    .addition-content {
+        width: 505px;
+        height: 623px;
+        flex-direction: column-reverse;
+    }
+
+    .addition-info {
+        margin: 0 auto;
+    }
+
+    .footer-box {
+        width: 768px;
+        height: 639px;
+    }
+
+    .footer-content {
+        width: 708px;
+        height: 609px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+/* End Adaptive layout 768px*/
+
+
+/* Start Adaptive layout 320px*/
+@media screen and (max-width:320px) {
+    .body {
+        width: 320px;
+        height: 4684px;
+    }
+
+    .header-box {
+        width: 280px;
+    }
+
+    .notOnly {
+        width: 320px;
+        height: 823px;
+    }
+    
+    .notOnly-content {
+        align-items: center;
+        width: 300px;
+        height: 296px;
+    }
+
+    .notOnly-box {
+        width: 300px;
+        height: 673px;
+    }
+
+    .h3-mobile {
+        font-size: 25px;
+    }
+
+    .notOnly-img2 {
+        width: 260px;
+        height: 271.77px;
+    }
+
+    .about-box {
+        width: 320px;
+        height: 974px;
+    }
+
+    .about-content {
+        width: 300px;
+        height: 890px;
+    }
+
+    .about-img {
+        width: 260px;
+        height: 353.6px;
+    }
+
+    .about-img2 {
+        width: 260px;
+        height: 353.6px;
+    }
+
+    .about-text {
+        align-items: center;
+        width: 300px;
+        height: 494px;
+    }
+
+    .ourFriends-box {
+        width: 320px;
+        height: 791px;
+    }
+
+    .ourFriends-content {
+        width: 300px;
+        height: 707px;
+    }
+
+    .card-jennifer {
+        display: none;
+    }
+
+    .ourFriends__h3 {
+        width: 300px;
+        height: 64px;
+    }
+
+    .slider {
+        flex-direction: column;
+        width: 270px;
+        height: 507px;
+    }
+
+    .friend-card {
+       order: 1;
+    }
+
+    .arrow-left {
+        order: 2;
+    }
+
+    .arrow-right {
+        order: 3;
+    }
+
+    .help-box {
+        width: 320px;
+        height: 745px;
+    }
+
+    .help-content {
+        width: 290px;
+        height: 661px;
+    }
+    
+    .help-boxes {
+        width: 290px;
+        height: 555px;
+    }
+    .box-content {
+        width: 130px;
+        height: 87px;
+    }
+
+    .addition {
+        width: 320px;
+        height: 542.2px;
+    }
+
+    .addition-content {
+        align-items: center;
+        width: 300px;
+        height: 458.2px;
+    }
+
+    .addition-img2 {
+        width: 260px;
+        height: 135.2px;
+    }
+
+    .addition-info {
+        width: 300px;
+        height: 281px;
+    }
+    .addition-h3 {
+        text-align: center;
+    }
+
+    .h5 {
+        letter-spacing: 0;
+    }
+
+    .addition-number {
+        font-size: 15px;
+    }
+
+    .card-number {
+        width: 281px;
+    }
+
+    .footer-box {
+        width: 320px;
+        height: 809px;
+    }
+
+    .footer-content {
+        width: 300px;
+        height: 779px;
+    }
+
+    .footer-box1 {
+        align-items: center;
+        text-align: center;
+        width: 278px;
+        height: 208px;
+    }
+
+    .footer-box2 {
+        text-align: center;
+        width: 299px;
+        height: 222px;
+    }
+
+    .footer-box3, .footer-box3-img {
+        width: 260px;
+        height: 269px;
+    }
+
+
+    
+
+    
+}
+/* End Adaptive layout 320px*/

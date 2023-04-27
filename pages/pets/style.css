@@ -281,3 +281,56 @@
     src: url(../../assets/fonts/georgia.ttf);
     font-style: Regular; 
 }
+
+/* Start Adaptive layout 768px*/
+
+@media screen and (max-width: 768px) {
+    .body {
+        width: 768px;
+        height: 2492px;
+    }
+
+    .header {
+        width: 768px;
+    }
+
+    .header-box {
+        width: 708px;
+    }
+
+    .ourFriends-box {
+        width: 768px;
+        height: 1733px;
+    }
+
+    .ourFriends-content {
+        width: 708px;
+        height: 1603px;
+    }
+    
+    .slider {
+        width: 580px;
+        height: 1365px;
+        flex-wrap: wrap;
+    }
+
+    .card-hidden {
+        display: none;
+    }
+
+    .footer-box {
+        width: 768px;
+        height: 639px;
+    }
+
+    .footer-content {
+        width: 708px;
+        height: 609px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+/* End Adaptive layout 768px*/
+
+/* Start Adaptive layout 320px*/
+/* End Adaptive layout 320px*/
