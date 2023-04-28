@@ -333,4 +333,119 @@
 /* End Adaptive layout 768px*/
 
 /* Start Adaptive layout 320px*/
+@media screen and (max-width: 320px) {
+
+    .body {
+        width: 320px;
+        height: 2578px;
+    }
+
+    .header {
+        width: 320px;
+    }
+    .header-box {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index:2;
+        overflow: hidden;
+    }
+
+    .menu-btn span {
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #000000;
+        transition: all 0.5s;
+    }
+
+    .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 5px);
+    }
+    .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 5px);
+    }
+
+    .ourFriends-box {
+        width: 320px;
+        height: 1649px;
+    }
+
+    .ourFriends-content {
+        width: 300px;
+        height: 1565px;
+    }
+
+    .card-hidden2 {
+        display: none;
+    }
+
+    .slider {
+        flex-direction: column;
+    }
+    .ourFriends__h3 {
+        width: 300px;
+        justify-content: center;
+    }
+
+    .h3-mobile {
+        font-size: 25px;
+    }
+
+    .slider-nav {
+        width: 300px;
+    }
+
+    .arrow {
+        width: 49px;
+        height: 49px;
+    }
+
+    .footer-box {
+        width: 320px;
+        height: 809px;
+    }
+
+    .footer-content {
+        width: 300px;
+        height: 779px;
+    }
+    
+    .footer-box1 {
+        align-items: center;
+        width: 300px;
+        height: 205px;
+    }
+
+    .footer-box2 {
+        align-items: center;
+        width: 300px;
+        height: 205px;
+    }
+
+    .footer-box3, .footer-box3__img {
+        width: 260px;
+        height: 269px;
+    }
+
+    .h3 {
+        text-align: center;
+    }
+
+    .footer-links {
+        width: 300px;
+    }
+}
 /* End Adaptive layout 320px*/
